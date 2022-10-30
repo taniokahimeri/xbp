@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <title>第4回</title>
+     <link rel="stylesheet" href="./css/style.css">
+     <style>
+
+     html {
+         background: #e6e6fa;
+        }
+      </style>
+</head>
+<body>
+    <style>
+
+        body {
+            background: #e6e6fa;
+           }
+         </style>
+    
+    
+<h1>第4回</h1>
+
+<div><center>
+    <p>
+    <style>p{font-size:20px;
+        color:rebeccapurple;}</style>
+    <b>ゲーム作成</b><br></p>
+    <br>
+    <b><font color="#ba55d3">三択クイズ</font></b>
+<br>
+    私たちの班は電車についての三択クイズを作成しました。<br>
+<br>
+    三人の人に解いてもらい点数を競う<br>
+    難易度によって点数が変わるので難しい問題を正解すれば点数UP‼<br>
+<br></center>
+<font color="#ba55d3">ソースコード<br></font>
+    <pre><codo>
+        for i in range(1,4):
+        print(i,"人目")
+    
+    
+        maru= 0
+        
+        print("これから電車クイズを始めます!3人の中で一番横浜の電車について知っている人は誰なのか⁉")
+    
+        k = input("横浜駅に入っている鉄道会社数は？　選択肢:10,6,5")
+        if k == "6":
+            print("正解")
+            maru = maru + 1
+        else:
+            print("不正解　正解は6でした。")
+    
+        n = input("みなとみらい線の駅数は？　選択肢:5,6,2")    
+        if n == "6" :
+            print("正解")
+            maru = maru + 3
+        else:
+            print("不正解　正解は6でした。")
+    
+        g = input("神奈川県の全駅数は？　選択肢:251,97,371")
+        if g == "371":
+            print("正解")
+            maru = maru + 9
+        else:
+            print("不正解　正解は371でした。")
+    
+        w = input("神奈川県の駅がない場所は？ 選択肢:綾瀬市,中井町,座間市")    
+        if w == "綾瀬市" :
+            print("正解")
+            maru = maru + 7
+        else:
+            print("不正解　正解は綾瀬市でした。")
+            
+        print("終了！　あなたの点数は20点満点中ー", maru , "点です")</codo></pre><br>
+<br><center> 
+    <font color="#ba55d3">感想</font><br>
+仕組みをしっかり理解するのが難しく簡単なものしか作れなかった。<br>
+３人で競うゲームなので最終的に一番点数が高い人が表示されるようにしたかった。<br>
+次は違うもっと複雑なものに挑戦していきたいと思った。<br>
+問題によって点数を買えるなどの工夫ができた。<br>
+</center>
+</div>
+</body>
+</html>
